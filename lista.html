@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Listas e Tabelas</title>
+        <style>
+        body{
+            background-color: antiquewhite
+        }
+        table, th, td{
+            text-align: center;
+            border: 1px solid darkcyan;
+        }
+        ul{
+            list-style-position: inside;
+        }
+    </style>
+    </head>
+    <body style="font-family: Arial, Helvetica, sans-serif;">
+        <h1 style="text-align: center; color: rgb(219, 1, 96)"><u>Trabalhando com Listas</u></h1>
+        <h2 style="color: darkred"><i>Listas Ordenadas</i></h2>
+        <ol type="i">
+            <li>Acordar</li>
+            <li>Ligar para o João</li>
+            <li>Tomar Café</li>
+            <li>Escovar os Dentes</li>
+            <li>Ir para a Faculdade</li>
+            <li>Almoçar</li>
+            <li>Ir para o trabalho</li>
+            <li>Voltar para casa</li>
+            <li>Jantar</li>
+            <li>Dormir</li>
+        </ol>
+        <br>
+        <h2 style="color: darkred"><i>Listas não Ordenadas</i></h2>
+        <ul style="list-style-type:square;">
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Alface</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+        <br>
+        <h2 style="color: darkred"><i>Linguagens de Programação</i></h2>
+        <ol type="1">
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+            <li>Novas</li>
+            <ol start="5" type="a">
+                <li>C#</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ol>
+        </ol>
+        <br>
+        <h2 style="color: darkred"><i>Lista de Definições</i></h2>
+        <dl>
+            <b><dt>HTML</dt></b>
+            <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+            <b><dt>CSS</dt></b>
+            <dd>Linguagem de marcação para a criação do design de um site.</dd>
+            <b><dt>JavaScript</dt></b>
+            <dd>Linguagem de programação de interatividade do site.</dd>
+        </dl>
+        <br>
+        <h2 style="color: darkred"><i>Lista de Jogos</i></h2>
+        <ol type="1">
+            <li>NES</li>
+            <ul style="list-style-type:square;">
+                <li>Mario Bros</li>
+                <ul style="list-style: circle;">
+                    <li>Mario Bros 3</li>
+                    <li>Mario: Lost Levels</li>
+                </ul>
+                <li>Ninja Gaiden</li>
+            </ul>
+            <li>MegaDrive</li>
+            <ul style="list-style-type:square;">
+                <li>Sonic</li>
+                <ul style="list-style: circle;">
+                    <li>Sonic</li>
+                    <li>Sonic 3</li>
+                </ul>
+                <li>Streets of Rage 2</li>
+            </ul>
+            <li>SNES</li>
+            <ul style="list-style-type:square;">
+                <li>Mario</li>
+                <li>Donkey Kong</li>
+            </ul>
+            <li>PlayStation</li>
+            <ul style="list-style-type:square;">
+                <li>Final Fantasy VII</li>
+                <li>Castlevania</li>
+            </ul>
+        </ol>
+        <br>
+        <h2 style="color: darkred"><i>Tabela de informações dos Jogos</i></h2>
+        <table style="width:100%">
+            <tr style="background-color: aquamarine; color: darkblue;">
+                <th style="width: 20%;">Jogo</th>
+                <th style="width: 20%;">Informações</th>
+                <th style="width: 20%;">Imagem</th>
+            </tr>
+            <td style="text-align: center;" height="100px">River Raid</td>
+            <td><ul>
+                <li>Ano: 1982</li>
+                <li>Plataforma: Atari</li>
+            </ul></td>
+            <td><img src="atari.jpg" width="100px"; height="100px"></td>
+            <tr>
+                <td height="100px">Mario Bross</td>
+                <td><ul>
+                    <li>Ano: 1985</li>
+                    <li>Plataforma: NES</li>
+                </ul></td>
+                <td><img src="mario 1.jpg" width="100px"; height="100px"></td>
+            </tr>
+            <tr>
+                <td height="100px">Sonic</td>
+                <td><ul>
+                    <li>Ano: 1991</li>
+                    <li>Plataforma: MegaDrive</li>
+                </ul></td>
+                <td><img src="sonicão.jpg" width="100px"; height="100px"></td>
+            </tr>
+            <tr>
+                <td height="100px">Donkey Kong</td>
+                <td><ul>
+                    <li>Ano: 1994</li>
+                    <li>Plataforma: SNES</li>
+                </ul></td>
+                <td><img src="Donkey.png" width="100px"; height="100px"></td>
+            </tr>
+            <tr>
+                <td height="100px">Final Fantasy VII</td>
+                <td><ul>
+                    <li>Ano: 1997</li>
+                    <li>Plataforma: PlayStation</li>
+                </ul></td>
+                <td><img src="Final_Fantasy_VII_Box_Art.jpg" width="100px"; height="100px"></td>
+            </tr>
+            <tr>
+                <td height="100px">GTA</td>
+                <td><ul>
+                    <li>Ano: 2013</li>
+                    <li>Plataforma: Multi Console</li>
+                </ul></td>
+                <td><img src="gta.jpg" width="100px"; height="100px"></td>
+            </tr>
+        </table>
+        </body>
+        
+        </html>
